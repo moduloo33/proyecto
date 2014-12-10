@@ -1,7 +1,8 @@
 Proyecto::Application.routes.draw do
   get "modulo3/new"
+  get "modulo3/graficos"
   get "modulo3/tablas"
-  root 'modulo3#tablas'
+  root 'modulo3#graficos'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
